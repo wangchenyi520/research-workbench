@@ -1,0 +1,56 @@
+name: Feature request
+description: Suggest a workflow or capability that would help your research.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem first, then the proposed feature. Features
+        that fit the local-first, optional-network default are easier to accept.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: I currently have to ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should the workbench do? Include mockups or examples if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Current workaround or other tools you tried.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Tasks / planning
+        - Notes
+        - Literature / Zotero
+        - Daily papers
+        - Reviews / reports
+        - Attendance / Pomodoro
+        - Desktop widgets
+        - AI
+        - Settings / data
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the roadmap.
+          required: true
+        - label: This feature does not require mandatory cloud accounts or telemetry.
+          required: true
