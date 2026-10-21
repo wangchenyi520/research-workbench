@@ -5,6 +5,8 @@ Zotero literature, daily papers, reviews, statistics, and desktop widgets in one
 place. Everything runs on your machine; AI and reference-manager integrations
 are optional.
 
+[![CI](https://github.com/wangchenyi520/research-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/wangchenyi520/research-workbench/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/wangchenyi520/research-workbench?include_prereleases)](https://github.com/wangchenyi520/research-workbench/releases)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![Node](https://img.shields.io/badge/node-18%2B-green)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
@@ -12,8 +14,8 @@ are optional.
 
 ![Quick add demo](docs/media/demo_quickadd.gif)
 
-> The full 2m40s demo is available in the repository's Releases. The GIF above
-> shows the global quick-add flow.
+> [Watch the full 2m40s demo](https://github.com/wangchenyi520/research-workbench/releases/download/v0.1.0/workbench_demo_preview.mp4).
+> The GIF above shows the global quick-add flow.
 
 ## English overview
 
